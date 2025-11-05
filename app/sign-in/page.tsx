@@ -1,5 +1,5 @@
 import { Hills, Sword, Tree } from "./art";
-import { FacebookSignIn, GoogleSignIn } from "./sign-in-form";
+import { GithubSignIn, GoogleSignIn } from "./sign-in-form";
 
 export default async function SignIn() {
   return (
@@ -38,7 +38,7 @@ export default async function SignIn() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between my-4 gap-4">
           <GoogleSignIn />
-          <FacebookSignIn />
+          <GithubSignIn />
         </div>
       </div>
     </main>
